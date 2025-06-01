@@ -3,8 +3,6 @@
 #include <QWidget>
 #include <QLabel>
 #include <QComboBox>
-
-
 class Calculator : public QWidget {
 
   public:
