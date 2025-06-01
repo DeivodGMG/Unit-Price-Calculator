@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
 //Creando mi objeto ventana
   Calculator window;
 //asignar titulo
-  window.setWindowTitle("QLabel");
+  window.setWindowTitle("💸 Unit Price Calculator");
   //mostrar ventana
   window.show();
 //Iniciar los loops de eventos o de slot de Qt
