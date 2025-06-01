@@ -1,5 +1,5 @@
 /*Aqui se encuentran los comportamiento de la clase Calculator
-El mainLayout varios hbox, esos hbox contienen los widgets.
+El mainLayout tiene varios hbox, esos hbox contienen los widgets.
 */
 
 #include "calculator.h"
@@ -30,6 +30,7 @@ Calculator::Calculator(QWidget *parent)
 
     QStringList weightUnits = unitConversionFactors.keys();
     QStringList volumeUnits = volumeConversionFactors.keys();
+    //Opciones de conversion
     QStringList allModes = {"Weight", "Volume", "Items", "Items with Weight", "Items with Volume"};
 
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
