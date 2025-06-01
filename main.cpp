@@ -1,9 +1,15 @@
 #include <QApplication>
-#include "MainWindow.h"
+#include <QTextStream>
+#include "calculator.h"
 
-int main(int argc, char **argv){
+int main(int argc, char *argv[]) {
 
-    QApplication app(argc, argv);
-    auto *mainWindow = new  MainWindow(1600, 900);
-    return app.exec();
+  QApplication app(argc, argv);
+
+  Calculator window;
+
+  window.setWindowTitle("QLabel");
+  window.show();
+
+  return app.exec();
 }
